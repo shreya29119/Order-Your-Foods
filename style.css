@@ -180,6 +180,7 @@ body{
 }
 
 .foods>a:hover{
+  transition:ease;
   transform: translateY(-10px);
   box-shadow: 15px 20px 50px rgba(0, 0, 0, 0), 0 15px 12px rgba(0, 0, 0, 0);
 }
