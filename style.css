@@ -1,0 +1,243 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto&display=swap');
+
+
+body{
+  margin: 0;
+  background: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header{
+  display:inline-block;
+}
+
+.nav-bar{
+  margin: 30px;
+}
+
+.h1{
+  font-weight: 100;
+}
+.header>.nav-bar>.logo{
+  font-family: 'Abril Fatface', cursive;
+  font-weight: 100;
+  font-size: 20px;
+  margin-left: 40px;
+  margin-top:40px;
+}
+
+.nav-items ul{
+  list-style: none;
+  margin-left: 0;
+  margin-top:60px;
+}
+
+.nav-items .ul .li {
+      margin: 40px 0px;
+      color: #a09696;
+      font-size: 20px;
+      font-weight: 500;
+      font-family: 'Playfair Display', serif;
+      font-family: 'Roboto', sans-serif;
+}
+
+.nav-items .ul .li a{
+      text-decoration: none;
+      margin: 40px 0px;
+      color: #a09696;
+      font-size: 20px;
+      font-weight: 500;
+      font-family: 'Playfair Display', serif;
+      font-family: 'Roboto', sans-serif;
+}
+
+.nav-items .ul .li a:hover{
+     color: #766d6d;
+}
+
+.Navbar__Link-toggle {
+  display: none;
+}
+.cart1{
+    visibility: hidden;
+    display: inline-block none;
+    float: right;
+    margin: 50px;
+    height: 50px;
+}
+.cart1>a>img{
+  width:50px;
+}
+@media only screen and (max-width: 768px) {
+  .edcar_letter{
+        font-size:120px;
+    }
+  .logo>.h1{
+    margin-left: 100px;
+  }
+  #sp{
+    display:none;
+  }
+  .nav-items {
+    display:none;
+  }
+  .cart{
+    display:none;
+  }
+  .cart1{
+    visibility: visible;
+  }
+  .Navbar__Link-toggle {
+  margin-top:-50px;
+  align-self: flex-end;
+  display: initial;
+  position: absolute;
+  cursor: pointer;
+  align-self: flex-end;
+  display: initial;
+  position: absolute;
+  cursor: pointer;
+  }
+  .Navbar__ToggleShow{
+    display:flex;
+    flex-direction: column;
+  }
+}
+.cart{
+  width: 80px;
+  border: 2px solid #f93535;
+  margin-top:70px;
+  margin-left: 40px;
+  background: #f93535;
+  height: 20px;
+  border-radius: 20px;
+  padding:10px;
+}
+
+.acart{
+    margin-left: 25px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 200;
+}
+
+.nav-items>a:hover{
+    width: 100px;
+}
+.container{
+  display:inline-block;
+  float:right;
+  margin-top: 100px;
+  margin-right: 200px;
+}
+
+.foods{
+  display:flex;
+  justify-content: space-between;
+}
+
+.para{
+  display:inline-block;
+  float:right;
+}
+
+.container>.heading{
+    font-family: 'Abril Fatface', cursive;
+    font-size:30px;
+    margin-bottom:80px;
+}
+
+#h11{
+  font-weight: 100;
+}
+
+.food-items{
+    width: 150px;
+    padding-bottom:5px;
+    margin-right: 30px;
+    border-radius: 20px;
+    box-shadow: 15px 20px 50px #d9d4d1;
+}
+
+.img{
+  width: 100px;
+  padding: 20px;
+}
+
+.text {
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 14px;
+    padding-top: 0;
+    font-weight: 600;
+}
+
+.foods>a{
+  text-decoration: none;
+  color: #000;
+}
+
+.foods>a:hover{
+  transition: ease;
+  transform: translateY(-10px);
+  box-shadow: 15px 20px 50px rgba(0, 0, 0, 0), 0 15px 12px rgba(0, 0, 0, 0);
+}
+.para{
+  color: #a09696;
+  margin-top: 130px;
+  margin-right: -900px;
+  word-break: break-word;
+  width: 250px;
+}
+
+.line{
+  margin-top: 20px;
+  width: 55px;
+  height: 3px;
+  background: #f46565;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .edcar_letter{
+        font-size:120px;
+    }
+  .container{
+    margin-top:10px;
+    margin-right: -40px;
+    width:480px;
+  }
+  .container>.heading{
+    font-size: 20px;
+    margin-left: 40px;
+  }
+  .container>.foods{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    align-content: stretch;
+    flex-wrap: wrap;
+  }
+  .last{
+    display:none;
+  }
+  .food-items{
+    padding:20px;
+    margin-bottom: 30px;
+  }
+  .para{
+    display: block;
+    margin: auto;
+    width:400px;
+  }
+  .para>p{
+      margin-top:50px;
+      width: 400px;
+  }
+}
